@@ -143,6 +143,10 @@ font-size: 35px !important}
     width: 40px;
 }
 
+.featured-image2 {
+    width: 80px;
+}
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
