@@ -1163,7 +1163,7 @@ tems Section style
     font-size:16px;
 }
 .teams_item ul li a:hover i{
-    color:#fddc57;
+    color:#cc7a30;
 }
 /*team Skill bar*/
 .teamskillbar {
@@ -1172,7 +1172,7 @@ tems Section style
     margin-bottom:15px;
     width:100%;
     background:#bdc3ca;
-    height:3px;
+    height:8px;
     -webkit-transition:0.4s linear;
     transition:0.4s linear;
     -webkit-transition-property:width, background-color;
@@ -1184,9 +1184,9 @@ tems Section style
     left:0;
 }
 .teamskillbar-bar {
-    height:3px;
+    height:8px;
     width:0px;
-    background:#fddc57;
+    background:#cc7a30;
     position: absolute;
     left:0px;
     top:0px;
