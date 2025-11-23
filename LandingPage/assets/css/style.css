@@ -139,6 +139,10 @@ font-size: 35px !important}
     z-index: 0;
 }
 
+.featured-image {
+    width: 40px;
+}
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
