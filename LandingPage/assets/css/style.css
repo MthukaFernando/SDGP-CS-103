@@ -105,7 +105,8 @@ section { overflow: hidden; }
 .text-finence{color:#13A0B2 !important;;}
 .text-mega{color:#00a885 !important;;}
 .text-white{color:#fff !important;;}
-.text-black{color:#16293b !important;}
+.text-mission{color:#001F3F  !important;
+font-size: 35px !important}
 .text-yellow{
     color:#fddc57;
 }
@@ -124,7 +125,8 @@ section { overflow: hidden; }
 .bg-grey{background-color: #fcfbf7;}
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
-.bg-yellow{background-color: #d49436;}
+.bg-yellow{background-color: #fddc57;}
+.mission{background-color: #d49436;}
 
 img {
     -moz-user-select: none;
