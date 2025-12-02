@@ -29,12 +29,11 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #f8f8f8;  /* The default color of the main navmenu links */
-  --nav-hover-color: #e59d02; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #1b1a1a; /* Used as the background color for mobile navigation menu */
+  --nav-hover-color: #edd328; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #1b1b1a; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #1b1a1a; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #f8f8f8; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #e59d02; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #e5e102; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -44,6 +43,30 @@
   --surface-color: #282828;
 }
 
+.navmenu a {
+  color: #000; /* or whatever the initial color is */
+  transition: color 0.5s; /* smooth transition */
+}
+
+/* Nav link color when scrolled */
+body.scrolled .navmenu a {
+  color: #fff; /* white letters */
+}
+
+body.scrolled .navmenu a.active {
+  color: #ffc107; /* yellow */
+}
+
+.header .sitename {
+  color: #e59d02 !important;
+}
+
+.hero-title {
+  color: #deab10 !important;
+}
+.hero-description {
+  color: #3b1515 !important;
+}
 .dark-background {
   --background-color: #000000;
   --default-color: #ffffff;
@@ -51,6 +74,7 @@
   --surface-color: #1b1b1b;
   --contrast-color: #ffffff;
 }
+
 
 /* Smooth scroll */
 :root {
@@ -143,12 +167,16 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(88, 32, 30, 0);
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
-  transition: all 0.5s;
+  transition: background-color 0.5s;
   z-index: 997;
+}
+
+body.scrolled .header {
+  --background-color: rgba(202, 129, 19, 0.174); /* fully brown */
 }
 
 .header .logo {
@@ -771,7 +799,7 @@ section,
   color: var(--heading-color);
   line-height: 1.1;
   margin-bottom: 25px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 @media (max-width: 768px) {
@@ -787,7 +815,7 @@ section,
 }
 
 .hero .hero-title .typed {
-  background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color), #8b5cf6 50%) 100%);
+  background: linear-gradient(120deg, #d69335, #8b3f7f, #3b1515);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -801,7 +829,7 @@ section,
   left: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color), #8b5cf6 50%) 100%);
+  background: linear-gradient(120deg, #d69335, #8b3f7f, #3b1515);
   border-radius: 2px;
 }
 
@@ -886,7 +914,7 @@ section,
 
 .hero .hero-image-showcase .image-wrapper {
   position: relative;
-  background: var(--surface-color);
+  background: #341218;
   border-radius: 20px;
   padding: 15px;
   box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 88%);
@@ -901,7 +929,7 @@ section,
 
 .hero .hero-image-showcase .floating-card {
   position: absolute;
-  background: var(--surface-color);
+  background: #faf4ea;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   border-radius: 15px;
   padding: 20px;
