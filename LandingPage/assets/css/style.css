@@ -139,6 +139,7 @@ font-size: 35px !important}
     z-index: 0;
 }
 
+
 .featured-image {
     width: 40px;
 }
@@ -919,11 +920,9 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/home-bg.jpg) no-repeat top center;
-    background-size: cover;
-    position: relative;
+    background: linear-gradient(to bottom, #dab174, #d7590b);
     padding-top: 300px;
-    padding-bottom: 320px;
+    padding-bottom: 265px;
     width:100%;
 }
 .home_text h1{
@@ -936,6 +935,17 @@ Home Section style
     font-size:24px;
     font-family: 'Montserrat', sans-serif;
 
+}
+.cookimate {
+    width: 20%;
+    margin-top: -15%;
+}
+
+.baguette {
+    width: 20%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 20%;
 }
 
 
