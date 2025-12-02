@@ -3059,7 +3059,7 @@ section,
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  background: var(--surface-color);
+  background: #e8ca8b;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
   transition: all 0.4s ease;
   height: 100%;
