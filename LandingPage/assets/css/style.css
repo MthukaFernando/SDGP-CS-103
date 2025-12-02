@@ -105,10 +105,11 @@ section { overflow: hidden; }
 .text-finence{color:#13A0B2 !important;;}
 .text-mega{color:#00a885 !important;;}
 .text-white{color:#fff !important;;}
-.text-black{color:#16293b !important;}
-.text-yellow{
-    color:#fddc57;
-}
+.text-mission{color:#bbd3ea  !important;
+font-size: 35px !important}
+.text-yellow{color:#fddc57;}
+.text-and{color:#3a1515  !important;}
+.text-vision {color:#f7fafd  !important}
 
 .disabled{
     cursor: not-allowed;
@@ -125,6 +126,27 @@ section { overflow: hidden; }
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
 .bg-yellow{background-color: #fddc57;}
+.mission{background-color: #d49436;}
+
+.bg-video {
+    margin-top: 53.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+.featured-image {
+    width: 40px;
+}
+
+.featured-image2 {
+    width: 80px;
+}
 
 img {
     -moz-user-select: none;
@@ -133,6 +155,10 @@ img {
     -user-select: none;
     -webkit-user-drag: none;
     -user-drag: none;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 a,
 a:hover,
@@ -894,11 +920,9 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/home-bg.jpg) no-repeat top center;
-    background-size: cover;
-    position: relative;
+    background: linear-gradient(to bottom, #dab174, #d7590b);
     padding-top: 300px;
-    padding-bottom: 320px;
+    padding-bottom: 265px;
     width:100%;
 }
 .home_text h1{
@@ -911,6 +935,17 @@ Home Section style
     font-size:24px;
     font-family: 'Montserrat', sans-serif;
 
+}
+.cookimate {
+    width: 20%;
+    margin-top: -15%;
+}
+
+.baguette {
+    width: 20%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 20%;
 }
 
 
@@ -1163,7 +1198,7 @@ tems Section style
     font-size:16px;
 }
 .teams_item ul li a:hover i{
-    color:#fddc57;
+    color:#cc7a30;
 }
 /*team Skill bar*/
 .teamskillbar {
@@ -1172,7 +1207,7 @@ tems Section style
     margin-bottom:15px;
     width:100%;
     background:#bdc3ca;
-    height:3px;
+    height:8px;
     -webkit-transition:0.4s linear;
     transition:0.4s linear;
     -webkit-transition-property:width, background-color;
@@ -1184,9 +1219,9 @@ tems Section style
     left:0;
 }
 .teamskillbar-bar {
-    height:3px;
+    height:8px;
     width:0px;
-    background:#fddc57;
+    background:#cc7a30;
     position: absolute;
     left:0px;
     top:0px;
@@ -1196,7 +1231,6 @@ tems Section style
 /*Choose Section
 ======================*/
 .choose_mac{
-    background: url(../images/choose-mokup.png) no-repeat;
     background-size: cover;
     width: 600px;
     height: 365px;
@@ -1212,8 +1246,6 @@ tems Section style
 .choose_mac .choose_item img{
     width: 100%;
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 15px;
 }
 .choose_item_text h6{
     font-weight: 700;
