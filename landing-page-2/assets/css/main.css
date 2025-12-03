@@ -3175,9 +3175,9 @@ section,
 
 .team .team-member .member-content span {
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
-  color: var(--accent-color);
+  color: rgb(132, 48, 27);
   margin-bottom: 15px;
 }
 
