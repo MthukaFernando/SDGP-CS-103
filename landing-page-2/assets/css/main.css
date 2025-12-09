@@ -1967,7 +1967,7 @@ section,
 }
 
 .services .services-grid .service-card {
-  background: var(--surface-color);
+  background: rgb(243, 204, 141);
   padding: 2rem;
   border-radius: 15px;
   height: 100%;
@@ -2014,8 +2014,8 @@ section,
   justify-content: center;
   width: 60px;
   height: 60px;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, rgb(246, 41, 14), transparent 90%);
+  color: rgb(74, 72, 72);
   border-radius: 15px;
   font-size: 1.5rem;
   font-weight: 700;
