@@ -1433,6 +1433,13 @@ tems Section style
 
 
 /*Footer section*/
+.footer {
+    background-color: #3a1515;
+}
+
+.main_footer {
+    background-color: #3a1515;
+}
 .divider{
     width:100%;
     height: 1px;
