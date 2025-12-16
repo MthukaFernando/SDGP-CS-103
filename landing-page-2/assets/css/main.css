@@ -43,6 +43,14 @@
   --surface-color: #282828;
 }
 
+.footer-theme {
+  --background-color: #d8b892;   /* footer background */
+  --default-color: #000000;      /* footer text */
+  --heading-color: #000000;      /* footer headings */
+  --accent-color: #e59d02;       /* link hover */
+  --contrast-color: #ffffff;     /* icons */
+}
+
 .navmenu a {
   color: #000; /* or whatever the initial color is */
   transition: color 0.5s; /* smooth transition */
