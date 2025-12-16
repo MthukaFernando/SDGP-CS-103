@@ -23,7 +23,7 @@
   --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #e59d02; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #191919; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #e5c69875; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -41,6 +41,14 @@
 .light-background {
   --background-color: #1b1a1a;
   --surface-color: #282828;
+}
+
+.footer-theme {
+  --background-color: #d8b892;   /* footer background */
+  --default-color: #000000;      /* footer text */
+  --heading-color: #000000;      /* footer headings */
+  --accent-color: #e59d02;       /* link hover */
+  --contrast-color: #ffffff;     /* icons */
 }
 
 .navmenu a {
@@ -1892,7 +1900,9 @@ section,
 .services {
   padding: 80px 0;
 }
-
+#stats{
+  background-color: rgb(228, 228, 193);
+}
 .services .intro-content .section-badge {
   display: inline-flex;
   align-items: center;
@@ -1953,6 +1963,7 @@ section,
 
 .services .hero-visual {
   position: relative;
+  
 }
 
 .services .hero-visual img {
@@ -1967,7 +1978,7 @@ section,
 }
 
 .services .services-grid .service-card {
-  background: var(--surface-color);
+  background: rgb(243, 204, 141);
   padding: 2rem;
   border-radius: 15px;
   height: 100%;
@@ -2014,8 +2025,8 @@ section,
   justify-content: center;
   width: 60px;
   height: 60px;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, rgb(246, 41, 14), transparent 90%);
+  color: rgb(74, 72, 72);
   border-radius: 15px;
   font-size: 1.5rem;
   font-weight: 700;
