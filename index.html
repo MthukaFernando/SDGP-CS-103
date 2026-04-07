@@ -1,711 +1,1168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CookiMate landing page</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>CookiMate landing page</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Instant
   * Template URL: https://bootstrapmade.com/newtemplate-bootstrap-website-template/
   * Updated: Jul 07 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">CookiMate</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#services">Why Choose Us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">CookiMate</h1>
-      </a>
+        <a
+          class="btn-getstarted"
+          href="https://doc-hosting.flycricket.io/cookimate-privacy-policy/2ffcf7fb-4da3-4e9f-8259-3bfa125ec153/privacy"
+          target="_blank"
+          >Privacy Policy</a
+        >
+      </div>
+    </header>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#services">Why Choose Us</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="hero-wrapper">
+            <div class="hero-main-content text-center">
+              <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
+                Welcome to CookiMate<br />
+                <br />
+                <span
+                  class="typed"
+                  data-typed-items="AI-Powered Recipes, Seamless Integration, Stress-Free Cooking "
+                ></span>
+              </h1>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+              <p
+                class="hero-description"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                To make cooking simple, fun and stress-free for university
+                students, helping them enjoy tasty meals without the hassle.
+              </p>
 
-    </div>
-  </header>
+              <br />
 
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-      <div class="container">
-        <div class="hero-wrapper">
-
-          <div class="hero-main-content text-center">
-            <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
-              Welcome to CookiMate<br>
-              <br>
-              <span class="typed" data-typed-items="AI-Powered Recipes, Seamless Integration, Stress-Free Cooking "></span>
-            </h1>
-
-            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
-              To make cooking simple, fun and and stress-free for university studets, helping them enjoy tasty meals without the hassel.            </p>
-            
-            <br>
-
-            <div class="hero-image-showcase" data-aos="fade-up" data-aos-delay="500">
-              <div class="image-wrapper">
-                <img src="assets/img/about/cookimate.png" class="img-fluid" alt="Strategic Overview">
-                <div class="floating-card card-1" data-aos="fade-right" data-aos-delay="600">
-                  <div class="card-content">
-                    <div class="card-icon">
-                      <i class="bi bi-book"></i>
+              <div
+                class="hero-image-showcase"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="image-wrapper">
+                  <img
+                    src="assets/img/about/cookimate.png"
+                    class="img-fluid"
+                    alt="Strategic Overview"
+                  />
+                  <div
+                    class="floating-card card-1"
+                    data-aos="fade-right"
+                    data-aos-delay="600"
+                  >
+                    <div class="card-content">
+                      <div class="card-icon">
+                        <i class="bi bi-book"></i>
+                      </div>
+                      <div class="card-info">
+                        <h4>
+                          <span
+                            data-purecounter-start="0"
+                            data-purecounter-end="100"
+                            class="purecounter"
+                          ></span
+                          >+
+                        </h4>
+                        <p>Built-in Recipes</p>
+                      </div>
                     </div>
-                    <div class="card-info">
-                      <h4><span data-purecounter-start="0" data-purecounter-end="100" class="purecounter"></span>+</h4>
-                      <p>Built-in Recipes</p>
+                  </div>
+                  <div
+                    class="floating-card card-2"
+                    data-aos="fade-left"
+                    data-aos-delay="700"
+                  >
+                    <div class="card-content">
+                      <div class="card-icon">
+                        <i class="bi bi-calendar"></i>
+                      </div>
+                      <div class="card-info">
+                        <h4>
+                          <span
+                            data-purecounter-start="0"
+                            data-purecounter-end="120"
+                            class="purecounter"
+                          ></span>
+                          days
+                        </h4>
+                        <p>Coming in....</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="floating-card card-2" data-aos="fade-left" data-aos-delay="700">
-                  <div class="card-content">
-                    <div class="card-icon">
-                      <i class="bi bi-calendar"></i>
-                    </div>
-                    <div class="card-info">
-                      <h4><span data-purecounter-start="0" data-purecounter-end="120" class="purecounter"></span> days</h4>
-                      <p>Coming in....</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <br>
-              <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
-              <a href="#" class="action-btn primary">
-                <span>Download App</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-              <!--<a href="" class="action-btn secondary glightbox">
+                <br />
+                <br />
+                <div
+                  class="hero-actions"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <a href="#" class="action-btn primary">
+                    <span>Download App</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  <!--<a href="" class="action-btn secondary glightbox">
                 <i class="bi bi-play-circle"></i>
-                <span>Watch a Quick Demo</span> -->
-              </a>
-            </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section><!-- /Hero Section -->
-
-   
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our features</h2>
-        <p>CookiMate is a smart social cooking assistant that combines AI guidance, voice interaction, and a friendly mascot to make cooking easier and more enjoyable for beginners. From step-by-step help in the kitchen to a supportive community and health-conscious tools, CookiMate brings everything you need into one simple experience.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        
-
-        <div class="row g-4">
-
-        <!-- Feature 1 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-1.jpg" alt="Feature 1" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">Interactive AI Mascot</h4>
-            <p>Your smart cooking buddy that guides, helps, and motivates you.</p>
-          </div>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-2.jpg" alt="Feature 2" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">Unit Converter</h4>
-            <p> No math, no mess — get the right measurement every time.</p>
-          </div>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-3.jpg" alt="Feature 3" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">In-Built Recipies</h4>
-            <p> Easy recipes that actually fit your time, skills, and ingredients.</p>
-          </div>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-4.jpg" alt="Feature 4" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">Community</h4>
-            <p>Cook together, share ideas, and get inspired by real people.</p>
-          </div>
-        </div>
-
-        <!-- Feature 5 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-5.jpg" alt="Feature 5" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">Meal Planner</h4>
-            <p>Turn “What should I cook?” into a ready-to-go plan in seconds.</p>
-          </div>
-        </div>
-
-        <!-- Feature 6 -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
-          <div class="feature-item text-center">
-            <img src="assets/img/features/feature-6.jpg" alt="Feature 6" class="img-fluid mb-3" style="border-radius: 8px;">
-            <h4 style="color: #ffbb00ef;">Earn Points</h4>
-            <p>Cook smarter, waste less, and get rewarded for every meal.</p>
-          </div>
-        </div>
-
-</div>
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-    
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Why choose Cookimate</h2>
-        <p>Your smart cooking companion for effortless meal planning, recipe discovery, and kitchen organization.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="intro-content" data-aos="fade-right" data-aos-delay="100">
-              <div class="section-badge mb-3" data-aos="zoom-in" data-aos-delay="50">
-                <i class="bi bi-star-fill"></i>
-                <span>WHAT WE DO</span>
+                <span>Watch a Quick Demo</span> 
+              </a>-->
+                </div>
               </div>
-              <h2 class="section-heading mb-4">Making Cooking Smarter, Faster & Easier</h2>
-              <p class="section-description mb-4">Cookimate helps you discover recipes, track ingredients, avoid food waste, and prepare meals efficiently. Whether you're a beginner or a pro, we combine smart technology with culinary simplicity to elevate your kitchen experience.</p>
-              <a href="#" class="cta-button" data-aos="fade-right" data-aos-delay="200">
-                      Explore Cookimate
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
-              <img src="assets/img/services/WhyUsImage.png" alt="User_interface" class="img-fluid">
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-        <div class="services-grid mt-5">
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our features</h2>
+          <p>
+            CookiMate is a smart social cooking assistant that combines AI
+            guidance, voice interaction, and a friendly mascot to make cooking
+            easier and more enjoyable for beginners. From step-by-step help in
+            the kitchen to a supportive community and health-conscious tools,
+            CookiMate brings everything you need into one simple experience.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row g-4">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-card">
-                <div class="card-number">
-                  <span>01</span>
-                </div>
-                <div class="card-content">
-                  <h5 class="service-title">
-                    <a href="#">Smart Recipe Recommendations</a>
-                  </h5>
-                  <p class="service-description"> Get personalized recipe suggestions based on the ingredients you already have at home — saving time and reducing waste.</p>
-                </div>
-              </div>
-            </div><!-- End Service Card -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-card">
-                <div class="card-number">
-                  <span>02</span>
-                </div>
-                <div class="card-content">
-                  <h5 class="service-title">
-                    <a href="#">Step-by-Step Cooking Guidance</a>
-                  </h5>
-                  <p class="service-description">  Follow easy, guided cooking steps with timers, measurements, and instructions to help you prepare dishes perfectly every time.</p>
-                </div>
-              </div>
-            </div><!-- End Service Card -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-card">
-                <div class="card-number">
-                  <span>03</span>
-                </div>
-                <div class="card-content">
-                  <h5 class="service-title">
-                    <a href="#">Smart Meal Planner</a>
-                  </h5>
-                  <p class="service-description">Plan your meals ahead with ease. Cookimate’s smart planner helps you schedule daily or weekly meals, manage ingredients, and stay organized effortlessly.</p>
-                </div>
-              </div>
-            </div><!-- End Service Card -->
-
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container service_bg_color" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="avatars d-flex align-items-center">
-              <img src="assets/img/person/angry-mascot (1).png" alt="Avatar 1" class="rounded-circle" loading="lazy">
-              <img src="assets/img/person/complimented-mascot.png" alt="Avatar 2" class="rounded-circle" loading="lazy">
-              <img src="assets/img/person/sad-mascot (1).png" alt="Avatar 3" class="rounded-circle" loading="lazy">
-              <img src="assets/img/person/scared-mascot.png" alt="Avatar 4" class="rounded-circle" loading="lazy">
-            </div>
-          </div>
-
-          <div class="col-lg-8">
-            <div class="row counters">
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <h2><span data-purecounter-start="0" data-purecounter-end="3.99" data-purecounter-duration="1" class="purecounter"></span>$</h2>
-                <p>Premium Plan (Per Month)</p>
-              </div>
-
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-                <h2><span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>+</h2>
-                <p>Recipes Available</p>
-              </div>
-
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
-                <h2><span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>+</h2>
-                <p>Meal Plans</p>
+            <!-- Feature 1 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-1.jpg"
+                  alt="Feature 1"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">Interactive AI Mascot</h4>
+                <p>
+                  Your smart cooking buddy that guides, helps, and motivates
+                  you.
+                </p>
               </div>
             </div>
+
+            <!-- Feature 2 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-2.jpg"
+                  alt="Feature 2"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">Unit Converter</h4>
+                <p>No math, no mess — get the right measurement every time.</p>
+              </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-3.jpg"
+                  alt="Feature 3"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">In-Built Recipes</h4>
+                <p>
+                  Easy recipes that actually fit your time, skills, and
+                  ingredients.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-4.jpg"
+                  alt="Feature 4"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">Community</h4>
+                <p>
+                  Cook together, share ideas, and get inspired by real people.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-5.jpg"
+                  alt="Feature 5"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">Meal Planner</h4>
+                <p>
+                  Turn “What should I cook?” into a ready-to-go plan in seconds.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
+              <div class="feature-item text-center">
+                <img
+                  src="assets/img/features/feature-6.jpg"
+                  alt="Feature 6"
+                  class="img-fluid mb-3"
+                  style="border-radius: 8px"
+                />
+                <h4 style="color: #ffbb00ef">Earn Points</h4>
+                <p>
+                  Cook smarter, waste less, and get rewarded for every meal.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Features Section -->
 
-    </section><!-- /Stats Section -->
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Why choose Cookimate</h2>
+          <p>
+            Your smart cooking companion for effortless meal planning, recipe
+            discovery, and kitchen organization.
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-    
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="team-header" data-aos="fade-up" data-aos-delay="200">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <h2>Our Professional Team</h2>
-              <p>At CookiMate, we're more than a development team, we blend creativity, technology, and a love for food.<br><br>
-                Together, we combine design, development, and innovation to shape an app that makes cooking smarter, simpler, and a little more fun for everyone...</p>
+              <div
+                class="intro-content"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <div
+                  class="section-badge mb-3"
+                  data-aos="zoom-in"
+                  data-aos-delay="50"
+                >
+                  <i class="bi bi-star-fill"></i>
+                  <span>WHAT WE DO</span>
+                </div>
+                <h2 class="section-heading mb-4">
+                  Making Cooking Smarter, Faster & Easier
+                </h2>
+                <p class="section-description mb-4">
+                  Cookimate helps you discover recipes, track ingredients, avoid
+                  food waste, and prepare meals efficiently. Whether you're a
+                  beginner or a pro, we combine smart technology with culinary
+                  simplicity to elevate your kitchen experience.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=bCJpAFYaUk4"
+                  class="cta-button"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  target="_blank"
+                >
+                  Watch marketing video
+                </a>
+              </div>
             </div>
-            <div class="col-lg-6 d-flex justify-content-lg-end">
-              <div class="team-controls">
-                <button class="team-control-btn team-prev"><i class="bi bi-chevron-left"></i></button>
-                <button class="team-control-btn team-next"><i class="bi bi-chevron-right"></i></button>
+            <div class="col-lg-6">
+              <div
+                class="hero-visual"
+                data-aos="fade-left"
+                data-aos-delay="150"
+              >
+                <img
+                  src="assets/img/services/WhyUsImage.png"
+                  alt="User_interface"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="services-grid mt-5">
+            <div class="row g-4">
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="service-card">
+                  <div class="card-number">
+                    <span>01</span>
+                  </div>
+                  <div class="card-content">
+                    <h5 class="service-title">
+                      <a href="#">Smart Recipe Recommendations</a>
+                    </h5>
+                    <p class="service-description">
+                      Get personalized recipe suggestions based on the
+                      ingredients you already have at home — saving time and
+                      reducing waste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Card -->
+
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="service-card">
+                  <div class="card-number">
+                    <span>02</span>
+                  </div>
+                  <div class="card-content">
+                    <h5 class="service-title">
+                      <a href="#">Step-by-Step Cooking Guidance</a>
+                    </h5>
+                    <p class="service-description">
+                      Follow easy, guided cooking steps with timers,
+                      measurements, and instructions to help you prepare dishes
+                      perfectly every time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Card -->
+
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="service-card">
+                  <div class="card-number">
+                    <span>03</span>
+                  </div>
+                  <div class="card-content">
+                    <h5 class="service-title">
+                      <a href="#">Smart Meal Planner</a>
+                    </h5>
+                    <p class="service-description">
+                      Plan your meals ahead with ease. Cookimate’s smart planner
+                      helps you schedule daily or weekly meals, manage
+                      ingredients, and stay organized effortlessly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Card -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats section light-background">
+        <div
+          class="container service_bg_color"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row align-items-center">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="avatars d-flex align-items-center">
+                <img
+                  src="assets/img/person/angry-mascot (1).png"
+                  alt="Avatar 1"
+                  class="rounded-circle"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/img/person/complimented-mascot.png"
+                  alt="Avatar 2"
+                  class="rounded-circle"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/img/person/sad-mascot (1).png"
+                  alt="Avatar 3"
+                  class="rounded-circle"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/img/person/scared-mascot.png"
+                  alt="Avatar 4"
+                  class="rounded-circle"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="row counters">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                  <h2>
+                    <span
+                      data-purecounter-start="0"
+                      data-purecounter-end="3.99"
+                      data-purecounter-duration="1"
+                      class="purecounter"
+                    ></span
+                    >$
+                  </h2>
+                  <p>Premium Plan (Per Month)</p>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                  <h2>
+                    <span
+                      data-purecounter-start="0"
+                      data-purecounter-end="100"
+                      data-purecounter-duration="1"
+                      class="purecounter"
+                    ></span
+                    >+
+                  </h2>
+                  <p>Recipes Available</p>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                  <h2>
+                    <span
+                      data-purecounter-start="0"
+                      data-purecounter-end="50"
+                      data-purecounter-duration="1"
+                      class="purecounter"
+                    ></span
+                    >+
+                  </h2>
+                  <p>Meal Plans</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Stats Section -->
 
-        <div class="team-slider swiper init-swiper" data-aos="fade-up" data-aos-delay="300">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 700,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": 1,
-              "spaceBetween": 30,
-              "navigation": {
-                "nextEl": ".team-next",
-                "prevEl": ".team-prev"
-              },
-              "breakpoints": {
-                "576": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 20
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-header" data-aos="fade-up" data-aos-delay="200">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <h2>Our Professional Team</h2>
+                <p>
+                  At CookiMate, we're more than a development team, we blend
+                  creativity, technology, and a love for food.<br /><br />
+                  Together, we combine design, development, and innovation to
+                  shape an app that makes cooking smarter, simpler, and a little
+                  more fun for everyone...
+                </p>
+              </div>
+              <div class="col-lg-6 d-flex justify-content-lg-end">
+                <div class="team-controls">
+                  <button class="team-control-btn team-prev">
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button class="team-control-btn team-next">
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="team-slider swiper init-swiper"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 700,
+                "autoplay": {
+                  "delay": 5000
                 },
-                "992": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 30
+                "slidesPerView": 1,
+                "spaceBetween": 30,
+                "navigation": {
+                  "nextEl": ".team-next",
+                  "prevEl": ".team-prev"
                 },
-                "1200": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 30
+                "breakpoints": {
+                  "576": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 20
+                  },
+                  "992": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 30
+                  },
+                  "1200": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 30
+                  }
                 }
               }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/methuka-pfp.PNG"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a
+                        href="https://github.com/MthukaFernando"
+                        target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/methuka-fernando-b90896375/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Methuka Fernando</h3>
+                    <span>Team Leader</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/chalini-pfp.jpeg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a href="https://github.com/ChaliniKK" target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/chalini-kaushalya-991241228/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Chalini Kaushalya</h3>
+                    <span>Member</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/ashani-pfp.jpg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a href="https://github.com/AshaniHansika" target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/ashani-hansika-478215349/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Ashani Hasika</h3>
+                    <span>Member</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/wenuka-pfp.jpg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a
+                        href="https://github.com/WenukaKithnula"
+                        target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/wenuka-kithnula-a1069b348/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Wenuka Kithnula</h3>
+                    <span>Member</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/shashini-pfp.jpg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a href="https://github.com/shashini13" target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/shashini-ranasinghe/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Shashini Ranasinghe</h3>
+                    <span>Member</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <div class="team-member">
+                  <div class="member-image">
+                    <img
+                      src="assets/img/person/vishmi-pfp.jpg"
+                      class="img-fluid"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="member-social">
+                      <a href="https://github.com/Vishmeii444" target="_blank"
+                        ><i class="bi bi-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/vishmi-gangodawila/"
+                        target="_blank"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="member-content">
+                    <h3>Vishmi Himasha</h3>
+                    <span>Member</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End slide item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Connect with us</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div
+              class="col-lg-6 mb-5"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <div class="contact-info-section">
+                <div class="info-header">
+                  <h3>Connect With Us</h3>
+                </div>
+
+                <div class="contact-info-grid">
+                  <div
+                    class="info-item"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  >
+                    <div class="info-icon">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="info-content">
+                      <h5>Send Email</h5>
+                      <p>cookimatecontact@gmail.com</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="info-item"
+                    data-aos="zoom-in"
+                    data-aos-delay="350"
+                  >
+                    <div class="info-icon">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div class="info-content">
+                      <h5>Call Us</h5>
+                      <p>+94 76 976 7332</p>
+                      <p>+94 70 600 7510</p>
+                      <p>+94 78 592 4566</p>
+                      <p>+94 70 136 6156</p>
+                      <p>+94 75 427 8312</p>
+                      <p>+94 71 927 2595</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="info-item"
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
+                  >
+                    <div class="info-icon">
+                      <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <div class="info-content">
+                      <h5>Business Hours</h5>
+                      <p>Mon-Sat: 8AM - 7PM</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="social-contact"
+                  data-aos="fade-up"
+                  data-aos-delay="450"
+                >
+                  <h5>Follow Our Journey</h5>
+                  <div class="social-icons">
+                    <a href="#" class="social-icon"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="#" class="social-icon"
+                      ><i class="bi bi-twitter-x"></i
+                    ></a>
+                    <a href="#" class="social-icon"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="social-icon"
+                      ><i class="bi bi-youtube"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="contact-form-wrapper">
+                <div class="form-header">
+                  <h3>Send Us Message</h3>
+                  <p>
+                    Have a question or a feedback? Send us a message and we'll
+                    get back to you soon.
+                  </p>
+                </div>
+
+                <form
+                  action="https://formspree.io/f/mreojydr"
+                  id="contact-form"
+                  method="post"
+                  class="php-email-form"
+                >
+                  <div class="mb-3">
+                    <label for="contactName" class="form-label"
+                      >Full Name</label
+                    >
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="contactName"
+                      placeholder="Enter your full name"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="contactEmail" class="form-label"
+                      >Email Address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="contactEmail"
+                      placeholder="Enter your email address"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="contactPhone" class="form-label"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control"
+                      name="phone"
+                      id="contactPhone"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="contactSubject" class="form-label"
+                      >Subject</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="contactSubject"
+                      placeholder="Enter message subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-4">
+                    <label for="contactMessage" class="form-label"
+                      >Your Message</label
+                    >
+                    <textarea
+                      class="form-control message-textarea"
+                      name="message"
+                      id="contactMessage"
+                      rows="5"
+                      placeholder="Enter your message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <!-- Status message will appear here -->
+                  <div id="form-status" class="my-3"></div>
+
+                  <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer footer-theme">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span class="sitename">CookiMate</span>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>435 Galle Rd,</p>
+                <p>Colombo 03, Sri Lanka.</p>
+                <p><strong>Email:</strong> <span>cookimatecontact@gmail.com</span></p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="#">24 hour customer support</a></li>
+                <li><a href="#">Fast responses to queries</a></li>
+                <li><a href="#">Secure data handling</a></li>
+                <li><a href="#">Regular system updates and maintenance</a></li>
+                <li><a href="#">User friendly interface</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>App Features</h4>
+              <ul>
+                <li><a href="#">Recipe generation</a></li>
+                <li><a href="#">Meal planning</a></li>
+                <li><a href="#">Mascot guide</a></li>
+                <li><a href="#">Converters</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Other features</h4>
+              <ul>
+                <li><a href="#">Social sharing</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="#">Level completions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright text-center">
+        <div
+          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <div>
+              © Copyright <strong><span>CookiMate</span></strong
+              >. All Rights Reserved
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a
+              href="https://www.instagram.com/cookimate_?igsh=ZGV2bGE4aGQ0NGJj"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/112446214/admin/dashboard/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Form Submission Handler -->
+    <script>
+      const form = document.getElementById("contact-form");
+      const statusDiv = document.getElementById("form-status");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        // Show loading with spinner
+        statusDiv.innerHTML = `<div class="loading" style="display: flex; align-items: center; gap: 10px;"><div class="spinner-border spinner-border-sm" role="status"></div> Sending your message...</div>`;
+
+        const formData = new FormData(form);
+
+        try {
+          const response = await fetch(form.action, {
+            method: "POST",
+            body: formData,
+            headers: {
+              Accept: "application/json",
+            },
+          });
+
+          if (response.ok) {
+            // Success popup/message
+            statusDiv.innerHTML = `
+                    <div class="sent-message" style="background: #d4edda; color: #155724; padding: 15px; border-radius: 8px; border-left: 4px solid #28a745;">
+                        <strong>✓ Success!</strong> Your message has been sent. We'll get back to you soon!
+                    </div>
+                `;
+            form.reset();
+
+            // Optional: Show a browser alert popup
+            // alert("✓ Message sent successfully! We'll contact you soon.");
+          } else {
+            const data = await response.json();
+            if (data.errors) {
+              statusDiv.innerHTML = `
+                        <div class="error-message" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 8px; border-left: 4px solid #dc3545;">
+                            <strong>❌ Error:</strong> ${data.errors.map((error) => error.message).join(", ")}
+                        </div>
+                    `;
+            } else {
+              statusDiv.innerHTML = `
+                        <div class="error-message" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 8px; border-left: 4px solid #dc3545;">
+                            <strong>❌ Oops!</strong> There was a problem submitting your form. Please try again.
+                        </div>
+                    `;
             }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/methuka-pfp.PNG" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/MthukaFernando" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/methuka-fernando-b90896375/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
+          }
+        } catch (error) {
+          statusDiv.innerHTML = `
+                <div class="error-message" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 8px; border-left: 4px solid #dc3545;">
+                    <strong>❌ Connection Error!</strong> Please check your internet and try again.
                 </div>
-                <div class="member-content">
-                  <h3>Methuka Fernando</h3>
-                  <span>Team Leader</span> 
-                </div>
-              </div>
-            </div><!-- End slide item -->
+            `;
+        }
 
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/chalini-pfp.jpeg" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/ChaliniKK" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/chalini-kaushalya-991241228/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-content">
-                  <h3>Chalini Kaushalya</h3>
-                  <span>Member</span>
-                </div>
-              </div>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/ashani-pfp.jpg" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/AshaniHansika" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ashani-hansika-478215349/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-content">
-                  <h3>Ashani Hasika</h3>
-                  <span>Member</span>
-                </div>
-              </div>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/wenuka-pfp.jpg" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/WenukaKithnula" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/wenuka-kithnula-a1069b348/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-content">
-                  <h3>Wenuka Kithnula</h3>
-                  <span>Member</span>
-                </div>
-              </div>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/shashini-pfp.jpg" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/shashini13" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/shashini-ranasinghe/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-content">
-                  <h3>Shashini Ranasinghe</h3>
-                  <span>Member</span>
-                </div>
-              </div>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <div class="team-member">
-                <div class="member-image">
-                  <img src="assets/img/person/vishmi-pfp.jpg" class="img-fluid" alt="" loading="lazy">
-                  <div class="member-social">
-                    <a href="https://github.com/Vishmeii444" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://www.linkedin.com/in/vishmi-gangodawila/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-content">
-                  <h3>Vishmi Himasha</h3>
-                  <span>Member</span>
-                </div>
-              </div>
-            </div><!-- End slide item -->
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- /Team Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Connect with us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-right" data-aos-delay="200">
-            <div class="contact-info-section">
-              <div class="info-header">
-                <h3>Connect With Us</h3>
-              </div>
-
-              <div class="contact-info-grid">
-                <div class="info-item" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="info-icon">
-                    <i class="bi bi-envelope-fill"></i>
-                  </div>
-                  <div class="info-content">
-                    <h5>Send Email</h5>
-                    <p>cookiimate@gmail.com</p>
-                  </div>
-                </div>
-
-                <div class="info-item" data-aos="zoom-in" data-aos-delay="350">
-                  <div class="info-icon">
-                    <i class="bi bi-telephone-fill"></i>
-                  </div>
-                  <div class="info-content">
-                    <h5>Call Us</h5>
-                    <p>+94 76 976 7332</p>
-                    <p>+94 70 600 7510</p>
-                    <p>+94 78 592 4566</p>
-                    <p>+94 70 136 6156</p>
-                    <p>+94 75 427 8312</p>
-                    <p>+94 71 927 2595</p>
-                  </div>
-                </div>
-
-                <div class="info-item" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="info-icon">
-                    <i class="bi bi-clock-fill"></i>
-                  </div>
-                  <div class="info-content">
-                    <h5>Business Hours</h5>
-                    <p>Mon-Sat: 8AM - 7PM</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="social-contact" data-aos="fade-up" data-aos-delay="450">
-                <h5>Follow Our Journey</h5>
-                <div class="social-icons">
-                  <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-                  <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
-                  <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-            <div class="contact-form-wrapper">
-              <div class="form-header">
-                <h3>Send Us Message</h3>
-                <p>Have a question or a feedback? Send us a message and we'll get back to you soon.</p>
-              </div>
-
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="mb-3">
-                  <label for="contactName" class="form-label">Full Name</label>
-                  <input type="text" name="name" class="form-control" id="contactName" placeholder="Enter your full name" required="">
-                </div>
-
-                <div class="mb-3">
-                  <label for="contactEmail" class="form-label">Email Address</label>
-                  <input type="email" class="form-control" name="email" id="contactEmail" placeholder="Enter your email address" required="">
-                </div>
-
-                <div class="mb-3">
-                  <label for="contactPhone" class="form-label">Phone Number</label>
-                  <input type="tel" class="form-control" name="phone" id="contactPhone" placeholder="Enter your phone number">
-                </div>
-
-                <div class="mb-3">
-                  <label for="contactSubject" class="form-label">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="contactSubject" placeholder="Enter message subject" required="">
-                </div>
-
-                <div class="mb-4">
-                  <label for="contactMessage" class="form-label">Your Message</label>
-                  <textarea class="form-control message-textarea" name="message" id="contactMessage" rows="5" placeholder="Enter your message" required=""></textarea>
-                </div>
-
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-
-                <button type="submit" class="submit-btn">
-                  <span>Send Message</span>
-                  <i class="bi bi-arrow-right"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer footer-theme">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">CookiMate</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>435 Galle Rd,</p>
-              <p>Colombo 03, Sri Lanka.</p>
-              <p><strong>Email:</strong> <span>cookiimate@gmail.com</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">24 hour customer support</a></li>
-              <li><a href="#">Fast responses to queries</a></li>
-              <li><a href="#">Secure data handling</a></li>
-              <li><a href="#">Regular system updates and maintenance</a></li>
-              <li><a href="#">User friendly interface</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>App Features</h4>
-            <ul>
-              <li><a href="#">Recipe generation</a></li>
-              <li><a href="#">Meal planning</a></li>
-              <li><a href="#">Mascot guide</a></li>
-              <li><a href="#">Converters</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Other features</h4>
-            <ul>
-              <li><a href="#">Social sharing</a></li>
-              <li><a href="#">Rewards</a></li>
-              <li><a href="#">Level completions</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>CookiMate</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+        // Auto-hide the message after 5 seconds
+        setTimeout(() => {
+          statusDiv.innerHTML = "";
+        }, 5000);
+      });
+    </script>
+  </body>
 </html>
