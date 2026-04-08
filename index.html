@@ -47,40 +47,61 @@
   ======================================================== -->
   </head>
 
-  <script>
+<script>
   const toggle = document.querySelector('.mobile-nav-toggle');
-  const nav = document.querySelector('#navmenu');
+  const navMenu = document.querySelector('#navmenu ul');
   const body = document.body;
 
-  // TOGGLE MENU
-  toggle.addEventListener('click', (e) => {
-    e.stopPropagation(); // 🔥 prevents instant close
-    body.classList.toggle('mobile-nav-active');
+  let isOpen = false;
 
-    toggle.classList.toggle('bi-list');
-    toggle.classList.toggle('bi-x');
-  });
+  // Use touchstart for iOS + click fallback
+  const openCloseMenu = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
 
-  // PREVENT CLICK INSIDE MENU FROM CLOSING IT
-  nav.addEventListener('click', (e) => {
+    isOpen = !isOpen;
+
+    if (isOpen) {
+      body.classList.add('mobile-nav-active');
+      toggle.classList.remove('bi-list');
+      toggle.classList.add('bi-x');
+    } else {
+      body.classList.remove('mobile-nav-active');
+      toggle.classList.add('bi-list');
+      toggle.classList.remove('bi-x');
+    }
+  };
+
+  // 🔥 Important: use BOTH events
+  toggle.addEventListener('touchstart', openCloseMenu, { passive: false });
+  toggle.addEventListener('click', openCloseMenu);
+
+  // Prevent menu click closing (iOS fix)
+  navMenu.addEventListener('touchstart', (e) => {
     e.stopPropagation();
   });
 
-  // CLOSE ONLY WHEN CLICKING A LINK
+  navMenu.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+
+  // Close only when clicking a link
   document.querySelectorAll('#navmenu a').forEach(link => {
     link.addEventListener('click', () => {
       body.classList.remove('mobile-nav-active');
       toggle.classList.add('bi-list');
       toggle.classList.remove('bi-x');
+      isOpen = false;
     });
   });
 
-  // OPTIONAL: CLICK OUTSIDE TO CLOSE (SAFE)
-  document.addEventListener('click', () => {
-    if (body.classList.contains('mobile-nav-active')) {
+  // Close when clicking outside
+  document.addEventListener('touchstart', () => {
+    if (isOpen) {
       body.classList.remove('mobile-nav-active');
       toggle.classList.add('bi-list');
       toggle.classList.remove('bi-x');
+      isOpen = false;
     }
   });
 </script>
