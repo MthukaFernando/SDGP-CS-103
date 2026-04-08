@@ -48,27 +48,40 @@
   </head>
 
   <script>
-  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
-  const navMenu = document.querySelector('#navmenu');
-  const body = document.querySelector('body');
+  const toggle = document.querySelector('.mobile-nav-toggle');
+  const nav = document.querySelector('#navmenu');
+  const body = document.body;
 
-  mobileNavToggle.addEventListener('click', () => {
+  // TOGGLE MENU
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation(); // 🔥 prevents instant close
     body.classList.toggle('mobile-nav-active');
 
-    // Toggle icon between menu and close
-    mobileNavToggle.classList.toggle('bi-list');
-    mobileNavToggle.classList.toggle('bi-x');
+    toggle.classList.toggle('bi-list');
+    toggle.classList.toggle('bi-x');
   });
 
-  // Close menu when clicking a link (better UX)
+  // PREVENT CLICK INSIDE MENU FROM CLOSING IT
+  nav.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+
+  // CLOSE ONLY WHEN CLICKING A LINK
   document.querySelectorAll('#navmenu a').forEach(link => {
     link.addEventListener('click', () => {
-      if (body.classList.contains('mobile-nav-active')) {
-        body.classList.remove('mobile-nav-active');
-        mobileNavToggle.classList.add('bi-list');
-        mobileNavToggle.classList.remove('bi-x');
-      }
+      body.classList.remove('mobile-nav-active');
+      toggle.classList.add('bi-list');
+      toggle.classList.remove('bi-x');
     });
+  });
+
+  // OPTIONAL: CLICK OUTSIDE TO CLOSE (SAFE)
+  document.addEventListener('click', () => {
+    if (body.classList.contains('mobile-nav-active')) {
+      body.classList.remove('mobile-nav-active');
+      toggle.classList.add('bi-list');
+      toggle.classList.remove('bi-x');
+    }
   });
 </script>
 
